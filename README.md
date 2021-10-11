@@ -1,4 +1,27 @@
-### CODING & ANALYSIS
+## DESIGN
+
+###### VIDEO IMPLEMENTAION
+[LINK](https://drive.google.com/drive/folders/1itetbOOLUXKuYhQi7NM1tFrftVyEgeVY?usp=sharing)
+
+![image](https://user-images.githubusercontent.com/61506157/136735199-8bd7a996-8116-4d4c-9f3f-fb628e5ccc9f.png)
+
+###### CIRCUIT DIAGRAM
+[LINK](https://www.tinkercad.com/things/hDJkfGfHuxg-arduino-door)
+
+![image](https://user-images.githubusercontent.com/61506157/136735205-d5eddf7b-5723-4884-b68a-1b006086a6c0.png)
+
+## HARDWARE COMPONENTS 
+1. Arduino Uno
+2. 16*2 Lcd Display
+3. 4*4 matrix keypad 
+4. TowerPro SG 90 Micro Servo Motor
+5. 10k Ohm Potentiometer Single Variable Resistor 
+6. 330ohm Resistor
+7. Universal Buzzer
+8. LED
+9. Some jumper wire
+
+## CODING & ANALYSIS
 After inserting all the header and library files, assign all the pin for LCD and define the password length and set the initial position of the servo to 0. After that, take a “char” datatype for declaring the number that can hold it including the null character.
 ###### Header files:
 Keypad.h => Required for handling the 4x4 Keypad
